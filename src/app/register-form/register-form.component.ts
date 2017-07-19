@@ -8,6 +8,8 @@ import { AuthService } from "../services/auth.service";
 })
 export class RegisterFormComponent implements OnInit {
   signUpUser = {
+    first_name: '',
+    last_name: '',
     email: '',
     password: '',
     passwordConfirmation: ''
